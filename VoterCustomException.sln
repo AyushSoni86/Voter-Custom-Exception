@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling1", "Excep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling2", "ExceptionHandling2\ExceptionHandling2.csproj", "{B5E33EEA-FA82-492C-A3F2-6A7190F92DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionalHandling3", "ExceptionalHandling3\ExceptionalHandling3.csproj", "{E0EA8FDD-A192-4157-B5AD-0C31C89C56A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling3", "ExceptionalHandling3\ExceptionHandling3.csproj", "{E0EA8FDD-A192-4157-B5AD-0C31C89C56A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling4", "ExceptionHandling4\ExceptionHandling4.csproj", "{5EA18BFD-BD72-4C02-864C-6AEA9065926E}"
 EndProject
