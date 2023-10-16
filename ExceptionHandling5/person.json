@@ -1,0 +1,36 @@
+{
+  "people": [
+    {
+      "name": "John",
+      "birthdate": "1992-10-16"
+    },
+    {
+      "name": "Alice",
+      "birthdate": "2018-10-16"
+    },
+    {
+      "name": "Bob",
+      "birthdate": "1987-10-16"
+    },
+    {
+      "name": "Emily",
+      "birthdate": "1995-10-16"
+    },
+    {
+      "name": "Ayush",
+      "birthdate": "2006-10-16"
+    },
+    {
+      "name": "Pranav",
+      "birthdate": "2016-10-16"
+    },
+    {
+      "name": "Sanket",
+      "birthdate": "1987-10-16"
+    },
+    {
+      "name": "Gajanan",
+      "birthdate": "1995-10-16"
+    }
+  ]
+}
