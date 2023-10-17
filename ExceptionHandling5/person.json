@@ -1,36 +1,76 @@
 {
-  "people": [
+  "students": [
     {
-      "name": "John",
-      "birthdate": "1992-10-16"
+      "name": "John Doe",
+      "date_of_birth": "2002-03-15"
     },
     {
-      "name": "Alice",
-      "birthdate": "2018-10-16"
+      "name": "Jane Smith",
+      "date_of_birth": "2003-06-25"
     },
     {
-      "name": "Bob",
-      "birthdate": "1987-10-16"
+      "name": "Michael Johnson",
+      "date_of_birth": "2001-11-10"
     },
     {
-      "name": "Emily",
-      "birthdate": "1995-10-16"
+      "name": "Emily Wilson",
+      "date_of_birth": "2004-02-03"
     },
     {
-      "name": "Ayush",
-      "birthdate": "2006-10-16"
+      "name": "David Brown",
+      "date_of_birth": "2002-09-08"
     },
     {
-      "name": "Pranav",
-      "birthdate": "2016-10-16"
+      "name": "Sarah Lee",
+      "date_of_birth": "2003-04-17"
     },
     {
-      "name": "Sanket",
-      "birthdate": "1987-10-16"
+      "name": "Matthew Davis",
+      "date_of_birth": "2002-12-29"
     },
     {
-      "name": "Gajanan",
-      "birthdate": "1995-10-16"
+      "name": "Olivia White",
+      "date_of_birth": "2003-08-12"
+    },
+    {
+      "name": "Daniel Taylor",
+      "date_of_birth": "2012-05-20"
+    },
+    {
+      "name": "Ava Anderson",
+      "date_of_birth": "2010-07-14"
+    },
+    {
+      "name": "William Martinez",
+      "date_of_birth": "2001-10-29"
+    },
+    {
+      "name": "Sophia Garcia",
+      "date_of_birth": "2021-01-08"
+    },
+    {
+      "name": "James Wilson",
+      "date_of_birth": "2002-04-02"
+    },
+    {
+      "name": "Oliver Smith",
+      "date_of_birth": "2003-11-15"
+    },
+    {
+      "name": "Ella Brown",
+      "date_of_birth": "2001-09-05"
+    },
+    {
+      "name": "Benjamin Thomas",
+      "date_of_birth": "2004-03-25"
+    },
+    {
+      "name": "Charlotte Hall",
+      "date_of_birth": "2002-08-19"
+    },
+    {
+      "name": "Henry Clark",
+      "date_of_birth": "2003-12-12"
     }
   ]
 }

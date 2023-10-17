@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExceptionHandling5
 {
-    public class Person
+    public class Student
     {
         public string Name { get; set; }
+
         private int Age;
+        public DateTime Date_of_birth { get; set; }
 
         public int getAge()
         {
@@ -21,13 +23,13 @@ namespace ExceptionHandling5
             this.Age = CalculateAge(dateTime);
         }
 
-        public DateTime Birthdate { get; set; }
-
         public void canVote(int age)
         {
             if (age < 18)
-                throw new UnderageVoterException("\nYou cannot vote. Your age is: " + this.Age + "\nPlease come after " + (18 - age) + " years " + this.Name + "\n");
-            else Console.WriteLine("\nWelcome, you can Vote! " + this.Name + "\n");
+                throw new UnderageVoterException("\nYou cannot vote. Your age is: " + this.Age + "\nPlease come after " + (18 - age) + " years " + this.Name + "\n-----------------------------------------------------------------------------------------------");
+            else Console.WriteLine("\nWelcome, your age is " + this.Age + ", you can Vote! " + this.Name + "\n");
+
+            Console.WriteLine("-----------------------------------------------------------------------------------------------");
         }
 
         private int CalculateAge(DateTime birthdate)

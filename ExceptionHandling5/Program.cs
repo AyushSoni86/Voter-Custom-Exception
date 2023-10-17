@@ -16,25 +16,25 @@ namespace ExceptionHandling5
             string json = File.ReadAllText(filePath);
 
             // Deserialize the JSON into a C# object
-            var jsonData = JsonConvert.DeserializeObject<Dictionary<string, List<Person>>>(json);
+            var jsonData = JsonConvert.DeserializeObject<Dictionary<string, List<Student>>>(json);
 
-            // Access the data
-            List<Person> people = jsonData["people"];
+            // Access the students
+            List<Student> students = jsonData["students"];
 
-            foreach (var person in people)
+            foreach (var student in students)
             {
                 try
                 {
-                    person.setAge(person.Birthdate);
-                    person.canVote(person.getAge());
+                    student.setAge(student.Date_of_birth);
+                    student.canVote(student.getAge());
                 }
                 catch (UnderageVoterException ex)
                 {
                     string path = "C:\\Users\\ayush.soni\\source\\repos\\VoterCustomException\\ExceptionHandling5\\" + DateTime.Now.ToString("dd MMM yyyy hh mm tt") + ".log";
                     using (StreamWriter stm = new StreamWriter(path, true))
                     {
-                        stm.WriteLine("Name = " + person.Name + ",\t\t" +
-                                    "Age = " + person.getAge() + "\t\t" +
+                        stm.WriteLine("Name = " + student.Name + ",\t\t" +
+                                    "Age = " + student.getAge() + "\t\t" +
                                     DateTime.Now + "\n" +
                                     ex.Message + "\n" +
                                     "------------------------------------------------------------------------------------");
